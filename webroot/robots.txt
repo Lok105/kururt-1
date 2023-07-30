@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /admin/
+
+User-agent: GoogleBot
+Disallow: /admin/
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.gif
+
+User-agent: Yandex
+Disallow: /admin/
+Allow: *.css
+Allow: *.js
+
+
+Host: https://pozitivland.ru
+Sitemap: https://pozitivland.ru/sitemap
